@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#left{
+    width: 20%;
+    height: 100vh;
+}
+ul{
+    list-style: none;
+    width: 100%;
+}
+li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 10px;
+}
+span{
+    padding-right: 10px;
+}
+div#right{
+    width: 80%;
+    height: 100vh;
+    border-left: 3px solid black;
+}
+main{
+    display: flex;
+}
